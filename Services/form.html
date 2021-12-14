@@ -1,0 +1,83 @@
+<!DOCTYPE = html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Account Sign Up </title>
+        <link rel="stylesheet" href="stylecss/main2.css"/>
+    </head>
+    <body>
+        <div id="wrapper">
+        <h1>Account for Start-Up</h1>
+        <br>
+        <form id="signup" method="get" action="process.html">
+            <fieldset>
+
+            <legend>Account Information</legend>
+
+            <label for="email">E-mail:</label>
+             <input type="text" id="email" name="email" autofocus required/><br />
+            <label for="password">Password:</label>
+             <input type="password" name="password" placeholder="Please enter password" maxlength="8" required><br />
+            <label for="ph-number"> Phone number:</label>
+            <input type="number" name="ph-number" placeholder="Enter your phone number" maxlength="10" required><br />
+            <label for="Type od ID">Please enter the type of ID <br /> document you wish to upload:</label>
+            <input type="text" id="id" name="id" /><br />
+            <label for="Personal ID no."> Personal ID no.:</label>
+            <input type="number" name="ID-number" placeholder="Enter your ID number" maxlength="10" required><br />
+        
+            </fieldset>
+
+            <fieldset>
+                <legend> Settings </legend>
+
+                <label for="about us?">How did you hear about us?</label> <br />
+                <input type="radio" id="Search Engine" name="about us" value="S" required>Search Engine <br />
+                <input type="radio" id="Word of mouth" name="about us" value="W">Email-ID <br />
+                <input type="radio" id="Other" name="about us" value="O">Other <br />
+                <br />
+                <label for= "notifications">Would you like to receive notifications from us?</label> <br />
+                <input type="checkbox" id="YES" name="announcements" value="Y" required> YES, I'd like
+                 to receive notifications. <br />
+                <br />
+                <label for="notify"> How would you like to receive notifications?</label> <br />
+                <input type="radio" id="Contact number" name="notify" value="c" required> Contact number <br />
+                <input type="radio" id="Email-id" name="notify" value="e">Word of mouth <br />
+                <input type="radio" id="Other" name="about us" value="O">Other
+                 <br />
+
+                </fieldset>
+                <h3>Please ignore the following section if you don't want us to design webpage for your Start up.</h3>
+                <fieldset>
+                    <label for= "notifications">Do you want us to design a website for your business?</label> <br />
+                <input type="checkbox" id="YES" name="announcements" value="Y"> YES, I'd like 
+                 that. <br />
+                 <br />
+                  Please ignore the following if you do not want us to design a website for your start-up.
+                  <br />
+                    <legend> Customised website for Start-ups !</legend>
+                    <br />
+                    <lable for="contact">Contact our designers via:</lable> <br />
+                <select id="contact">
+                    <option value="email"> Email </option>
+                    <option value="ph-number"> Phone number</option> 
+                    <option value="Facebook"> Fcaebook</option>
+                    <option value="Linked-in"> linkedin</option>
+                    
+                </select>
+                <br />
+                <label for="Comment">Comments:</label> <br />
+                    <textarea name="comments" placeholder="If you have any comments, please enter them here.">
+                    </textarea>
+                    <br />
+                </fieldset>
+            
+        </form>
+        <div id="button">
+        <input type="submit" value="Submit" />
+        </div>
+        </div>
+        <script src="jscode/form.js"></script>
+    </body>
+</html>

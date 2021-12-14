@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: "Oswald", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .logo {
+    color: rgb(252, 252, 252);
+    text-transform: uppercase;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-top: 90px;
+    margin-left: -15px;
+    box-sizing: border-box;
+    border: 5px solid rgb(238, 240, 241);
+    border-radius: 5px;
+    background-color: black;
+  }
+  main {
+    background-color: khaki;
+  }
+  .new ul {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: -90px;
+    text-decoration: none;
+  }
+  
+  .new ul li {
+    text-decoration-color: darkred;
+    font-weight: bold;
+    text-align: center;
+    list-style: none;
+    width: fit-content;
+    padding: 0.1em;
+    padding-bottom: -1em;
+    margin: 0 1em;
+    height: 1em;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .new ul li:hover ul {
+    opacity: 1;
+  }
+  image source {
+    size: 50px;
+  }
+  
+  .new ul li ul {
+    height: max-content;
+    width: 8em;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0 40px 50px 50px;
+    position: relative;
+    left: -30px;
+    top: 13px;
+    text-decoration: none;
+  }
+  .header {
+    color: beige;
+    background: chocolate;
+    padding: 5px 15px;
+    text-align: left;
+    font-size: 28px;
+    font-family: sans-serif;
+  }
+  
+  .new ul li ul li {
+    background-color: rgb(0, 0, 0);
+    width: 8em;
+    height: auto;
+    padding: 0.5em;
+    margin-left: -15px;
+    margin-top: -5px;
+    text-decoration: none;
+    justify-content: space-evenly;
+  }
+  
+  .new ul li ul li a {
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .new ul li a {
+    color: red;
+    cursor: pointer;
+    justify-content: space-between;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    width: 78%;
+    list-style: none;
+    padding: 7px 1px;
+    cursor: pointer;
+  }
+  
+  .new ul li a:hover {
+    background-color: rgb(8, 0, 0);
+    color: #e9e8e8;
+  }
+  
+  .bg-img {
+    background-image: url("assets/image1.jpg");
+    min-height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 85% 110%;
+    position: relative;
+    background-image: cover;
+    background-size: cover;
+  }
+  
+  .container {
+    display: grid;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  footer {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding-top: 10px;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 1em;
+  }
+  .text {
+    display: inline;
+    font: size 1.7em;
+    font-style: sans-serif;
+    text-decoration: aqua;
+    line-height: 1.5em;
+  }
+  .circuitDesign{
+    display: flex;
+  }
+  .circuitDesign .circuitDesignText{
+    display: flex;
+    height: 100%;
+    width: 160%;
+    padding: 25px;
+  }
+  .circuitDesign .circuitDesignImage{
+    padding: 15px;
+  }
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 60%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .surveypage{
+    background-color: lightsalmon;
+    text-align: center;
+  }
+  .survey li{
+    margin:10px;
+    cursor:pointer;
+}
+.survey li:hover{
+background: cornflowerblue;
+width: 150px;
+margin: 0 auto;
+padding:4 px;
+border-radius: 3px;
+transition: 0.3s ease;
+
+}
+.q1 {
+    display: block;
+}
+.q2{
+    display: none;
+}
+.q3
+{
+    display: none;
+}
+.end{
+    display: none;
+}
+.end a{
+    display: inline-block;
+}
+.end a:hover{
+    box-shadow: 1px 1px 7p yellowgreen;
+    transition:0.3s;
+}
+.survey{
+    padding-top: 30px;
+}
+.end{
+    padding-top: 30px;
+
+}

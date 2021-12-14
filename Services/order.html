@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HeadStart</title>
+        <meta name="Business ideas" content="This is for the beginners in the Business World."/>
+        <meta name="Entrepreneur" content="Aspiring Entrepreneurs can refer to this site for a headstart."/>
+        <link rel="shortcut icon " href="images/favicon.ico.png"/>
+        <link rel="stylesheet" href="stylecss/main2.css"/>
+        
+        <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script>
+            $( function() {
+              $( "#accordion" ).accordion();
+            } );
+            </script>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="first"><h3>Welcome to Head start.</h3></div>
+        <div class="second">
+            <p>Please fill the following information to continue with us. </p>
+            <p>The fields with '*' sign are mandatory.</p>
+            <form>
+                <fieldset>
+                    <legend>Page Information</legend>
+        
+                <div>
+                    <label for="name"><p>Start up Name:</p></label>
+                        <input type="text" name="name" id="name"  autofocus required >
+                        <span>*</span>
+                </div></br>
+                <div>
+                    <label for="email"><p>Email ID: </p></label>
+                        <input type="text" name="email" id="email" required>
+                        <span>*</span>
+                </div></br>
+                <div>
+                    <label for="skype"><p>Skype ID: </p></label>
+                    <input type="text" name="skype" id="skype" required>
+                    <span>*</span>
+                </div></br>
+                <div>
+                    <label for="phone"><p>Phone number:</p></label>   
+                    <input type="text" name="phone" required 
+                      pattern="\d{3}[\-]\d{3}[\-]\d{4}" 
+                      title="Must be 999-999-9999">
+                <span>*</span>
+                </div></br>
+                    <div>
+                        <label for="Contact method"><p>Please select your preferred contact method:</p></label>
+                    <select name="Contact" id="contact">
+                        <option value="">Your preferred choice : </option>
+                        <option>Email</option>
+                        <option>Phone</option>
+                        <option>Skype</option>
+                    
+                    </select>
+                        <button type="button" onclick="myFunction()">Choice</button>
+                    </div></br>
+                </fieldset>
+                </div>
+                <div>
+                <div id="accordion">
+                    <h3>You have to accept our Terms and Conditions to continue with us</h3>
+                    <div>
+                      <p>
+                     You can click below to read our terms.
+                      </p>
+                    </div>
+                    <h5>Terms and Conditions</h5>
+                    <div>
+                      <p>
+                        These Terms and Conditions are a legally binding set of rules about use of a website. They set out how users may<br> 
+                        use the site, and what they can and cannot do on the site. For example, if a user posts offensive <br>
+                        or defamatory content on a website, the owner of the site will want to have Terms and Conditions to fall <br>
+                        back on which clearly state that the owner of the site does not permit or take responsibility for that offensive <br>
+                        content, and that any liability (such as a defamation claim) should therefore sit with the user. In addition, the owner<br>
+                         of the site may want to have the ability to terminate the user's account and this also will need to be explained<br>
+                          in the Terms and Conditions.
+                       
+                      </p>
+                    </div>
+                    
+                </div>
+        
+                    <input type="checkbox" name="terms" id="terms"
+                    value="yes" required>I accept
+                <span>*</span>
+                <br>
+                </div></br>
+            
+            <fieldset>
+                <legend>Personal Information</legend>
+                
+                    <label for="name"><p>Name:</p></label>
+                    <input type="text" name="name" id="name" autofocus required >
+                    <span>*</span>
+                </br>
+                
+                <label for="zip"><p>Zip-Code:</p></label> 
+                <input type="text" name="zip" required 
+                    pattern="\d{5}([\-]\d{4})?" 
+                    title="Must be 99999 or 99999-9999"><br>
+                <br>
+                
+                   <label for="phone"><p>Phone number:</p></label>   
+                    <input type="text" name="phone" required 
+                      pattern="\d{3}[\-]\d{3}[\-]\d{4}" 
+                      title="Must be 999-999-9999">
+                 </br>
+                <input type="submit" id="submit" value="Place Order  ">
+                
+            </fieldset> 
+        </form>
+        </div>
+    </div>
+    <script src="jscode/orders.js"></script>
+</body>
+</html>

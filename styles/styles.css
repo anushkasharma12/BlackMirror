@@ -1,0 +1,323 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    background: #f1f1f1;
+    display: block;
+    margin: 8px;
+}
+
+#wrapper{
+    width: 80%;
+    min-width: 700px;
+    max-width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(240, 183, 126);
+    display: block;
+}
+
+
+h1,h2{
+    padding: 15px;
+    margin: 0px;
+}
+
+#feature_h1{
+    display: inline-flex;
+    float: left;
+}
+
+#feature_h2{
+    display: inline-flex;
+    float: left;
+}
+
+header{
+    width: 80%;
+}
+
+#page_header {
+    padding: 30px;
+    font-family: cursive;
+    color: white;
+    text-align: right;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: slategrey 2px;
+    background-image: url("../Finances/content/Financial-freedom.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 90% 40%;
+    background-position: right top;
+}
+
+#parent_header {
+    font-family: cursive;
+    color: black;
+    text-align: right;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: slategrey 2px;
+    background-image: url("../Finances/content/Financial-freedom.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: 100% 99%;
+    background-position:right top;
+}
+
+.topnav {
+    width: 99%;
+    background-color:rgb(126, 92, 58);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.topnav a {    
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+aside{
+    height: 570px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-top: 80px;
+    padding-right: 0px;
+    border-right-width: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: inline;
+    float: left;
+    width: 20%;
+    align-items: center;
+    background-color:rgb(126, 92, 58);
+}
+  
+p{
+    width: auto;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0px;
+}
+
+main {
+    display: inline-block;
+    width: 70%;
+}
+
+img{
+    height: 36%;
+    width: 20%;
+    padding: 20px 15px 20px 15px;;
+    border: cornflowerblue;
+    border-width: thick;
+}
+
+footer {
+    clear: both;            
+    color: rgb(41, 26, 10);
+    padding: 20px;
+    background: rgb(126, 92, 58);
+    margin-top: 20px 20px;
+}
+
+
+a:link {    
+    color: #d2d2e9;
+}
+a:visited {
+    color: rgb(40, 58, 12);
+}
+a:hover {
+    color: rgb(7, 5, 168);
+}
+
+figure{
+    display: inline-flex;
+    float:right;
+}
+caption{
+    display: inline-block;
+}
+
+label {
+    flex-direction: row;
+    color: navy;
+    float: left;
+    width: 8em;
+    font-weight: bold;
+    text-align: right;
+}
+
+input {
+    width: 15em;
+    margin-left: 1em;
+    margin-bottom: .5em;
+    border-style: dashed;
+    box-shadow: 2px 2px 2px #333;
+}
+
+#button {
+    margin-left: 7em;
+}
+
+input:focus {
+    border: 2px solid navy; 
+}
+
+#button, #reset {
+    width: 7em;
+    box-shadow: 2px 2px 0 navy; 
+    background-color: silver; 
+    border-style: solid;
+}   
+
+#button { 
+    margin-left: 9.5em; 
+}
+
+#investment_form{
+    display: inline-block;
+    border: black ;
+    border-style: double;
+    border: 1%;
+    padding: 15px;
+}
+
+#feature-wrapper{
+    width: 80%;
+    height: 70%;
+    display: inline-flex;
+    float: right;
+    background-image: url("../Finances/content/Financial-freedom.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: 100%;
+    background-color: rgb(240, 183, 126);
+}
+
+nav{
+    width: 100%;
+    height: 100%;
+}
+
+ul{
+    height: 100%;
+    padding-left: 45px;
+}
+
+#my-pie-chart {
+    display: inline-block;
+    
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background: conic-gradient(brown 0.00%, black 0.00% 0.55%, blue 0.55% 6.08%, green 6.08% 13.68%, yellow 13.68% 23.27%, orange 23.27% 40.47%, red 40.47%);
+  }
+
+table {
+    border: 1px solid black;
+    padding: 15px;
+    text-align: left;
+    width: 100%;
+    background-color: #a78c5c;
+    color: black;
+}
+#table_heading{
+    text-decoration: wavy;
+}
+tr:hover {
+    background-color: rgba(255, 145, 0, 0.534);
+}
+
+table td{
+    display: inline-table;
+    border: 2px solid black;
+    padding: 5px; 
+    margin: 10px;
+}
+
+tr{ 
+    display: block; 
+    border: 2px solid black;
+    padding: 5px; 
+}
+
+h4{
+    margin: 0px;
+}
+
+#hire_details{
+    display: inline-block;
+    border: black;
+    border-style: double;
+    border: 1%;
+    padding: 15px;
+    display: inline-block;
+}
+
+#fb {
+    float: left ;
+  }
+#about {
+    float: right;
+}
+#copyright {     
+    text-align: center;
+}
+
+#current_time{
+    height: 200px;
+    width: 200px;
+}
+
+.counter {
+    display: inline-block;
+    height: 24px;
+    width: auto;
+    padding: 3px;
+    margin: 2px;
+    max-width: 300px;
+    background-color: #555555;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.counter_inner {
+    height: auto;
+    border: none;
+    background-color: #555555;
+    max-width: 190px;
+    vertical-align: center;
+    align-content: center;
+}
+
+.num_tiles {
+    width:10px;
+    height: 10px;
+    background-color: #888888;
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center;
+    line-height: 10px;
+    padding: 3px;
+    margin: 1.5px;
+    font-family: verdana;
+    vertical-align: center;
+}
+
+select{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}

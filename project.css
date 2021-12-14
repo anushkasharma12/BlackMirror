@@ -1,0 +1,330 @@
+* {
+  box-sizing: border-box;
+  margin: 0; 
+  padding: 0;
+}
+
+
+nav{
+  padding-top: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8px;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  color: rgb(252, 252, 252);
+  text-transform: uppercase;
+  justify-content: center;
+  letter-spacing:  2px;
+  font-size: 30px;
+  margin-top: 90px;
+  margin-left: -15px;
+  box-sizing: border-box;
+  border: 5px solid rgb(238, 240, 241);
+  border-radius: 5px;
+  background-color: black;
+}
+main{
+  background-color:whitesmoke;
+}
+
+
+
+.new ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-top: -90px;
+  text-decoration : none;
+}
+
+.new ul li {
+  color: darkred;
+  font-weight: bold;
+  text-align: center;
+  list-style: none;
+  width: fit-content;
+  padding: 0.1em;
+  padding-bottom: -1em;
+  margin: 0 1em;
+  height: 1em;
+  cursor: pointer;
+  text-decoration: none;
+ 
+}
+
+.new ul li:hover ul {
+  opacity: 1;
+  
+  
+}
+image source{
+size: 50px;
+}
+
+.new ul li ul {
+  height: max-content;
+  width: 8em;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 0 40px 50px  50px;
+  position: relative;
+  left: -30px;
+  top: 13px;
+  text-decoration: none ;
+}
+
+
+.new ul li ul li {
+  background-color: rgb(0, 0, 0);
+  width: 8em;
+  height: auto;
+  padding: 0.5em;
+  margin-left: -15px;
+  margin-top: -5px;
+  text-decoration: none;
+  justify-content: space-evenly;
+}
+
+.new ul li ul li a {
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.new ul li a {
+  color: red;
+  cursor: pointer;
+  justify-content: space-between;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  width: 78%;
+  list-style: none;
+  padding: 7px 1px;
+  cursor: pointer;
+}
+
+.new ul li a:hover{
+  background-color: rgb(8,0,0);
+  color: #e9e8e8; 
+}
+
+.bg-img {
+ 
+  background-image: url("assets/image1.jpg");
+  min-height: 200px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 85% 110%;
+  position: relative;
+  background-image:cover;
+  background-size: cover;
+}
+
+.container {
+  display: grid;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer{
+  text-align: center;
+  background-color: blue;
+}
+
+
+#Centerheading {
+
+  display: flex;
+
+  justify-content: center;
+
+  vertical-align: middle;
+
+  line-height: 500px;
+
+  font-size: 40px;
+
+}
+
+#Centerheading1 {
+
+  text-align: center;
+
+  color: gray;
+
+  font-family: serif;
+
+  font-size: 20px;
+
+}
+
+#Centerheading2 {
+
+  text-align: center;
+
+  color: #005870;
+
+  font-family: serif;
+
+  font-size: 40px;
+
+  margin-bottom: 30px;
+
+}
+
+
+
+.button {
+
+  background-color: maroon;
+
+  border: 1px solid maroon;
+
+  border-radius: 4px;
+
+  color: #fff;
+
+  font-size: 15px;
+
+  min-height: 50px;
+
+  margin-bottom: 20px;
+
+  align-content: center;
+
+
+}
+
+.heading1 {
+  text-align: center;
+
+  color: steelblue;
+
+  font-size: 30px;
+
+}
+
+.imagesMain {
+
+  display: flex;
+
+}
+
+.imagesMain .Imageleft,
+
+.imagesMain .Imageright {
+
+  width: 50%;
+  align-items: center;
+
+}
+
+.Content_below{
+
+    padding-right: 30px;
+
+    font-size: 20px;
+
+    font-family: serif;
+
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 55px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 60%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.FORM{
+  align-items: center;
+  font: 1em sans-serif;
+  width: 200px;
+  padding: 0;
+  margin : 0 auto;
+}
+
+p * {
+  display: block;
+}
+
+input[type=email]{
+  -webkit-appearance: none;
+  appearance: none;
+
+  width: 100%;
+  border: 1px solid #333;
+  margin: 0;
+
+  font-family: inherit;
+  font-size: 90%;
+
+  box-sizing: border-box;
+}
+
+input:invalid{
+  border-color: #900;
+  background-color: #FDD;
+}
+
+input:focus:invalid {
+  outline: none;
+}
+
+.error {
+  width  : 100%;
+  padding: 0;
+
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+
+  box-sizing: border-box;
+}
+
+.error.active {
+  padding: 0.3em;
+}
